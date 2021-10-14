@@ -1,6 +1,7 @@
 # pac-demo
 * This is a pipeline as code demo, a best practice to organize your project.
 * It allows you to use the same way to run your project anywhere, such as in the pipeline, or locally.
+* It is very suitable for you to migrate your project to any pipeline tool, and you only need to simply configure your ci file.
 ### Run
 ```
 make run
