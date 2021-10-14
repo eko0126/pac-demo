@@ -21,5 +21,7 @@ make deploy
 ```
 make flyway
 ```
+### End to end test
+* Cypress to be updated
 ### You also can run it in gitlab ci or github ci or anywhere with pipeline as code
 * Just need you update the gitlab-ci.yml or .github/workflows/makefile.yml a bit
