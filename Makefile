@@ -46,7 +46,7 @@ deploy:
 deploy_with_tag: IMGAE_TAG=$(GIT_TAG)
 deploy_with_tag: deploy
 
-run:
+run: build_jar
 	@docker run --rm -it \
 	-v $(PWD):/app \
 	-p 8080:8080 \
