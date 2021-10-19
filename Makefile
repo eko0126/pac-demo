@@ -59,8 +59,8 @@ flyway:
 	-w /work \
 	-v $(HOME)/.flyway:/conf \
 	flyway/flyway:7.7.1 \
-	-locations=filesystem:/myworkspace/flyway \
-	-schemas=dms \
+	-locations=filesystem:/work/flyway \
+	-schemas=pacdemo \
 	-configFiles=/conf/$(K8S_ENV)_flyway.conf \
 	info migrate info
 
